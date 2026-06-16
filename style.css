@@ -1,0 +1,33 @@
+:root {
+    --font-texto: 'Courier New', Courier, monospace;
+    --cor--fundo: rgb(240, 208, 121);
+}
+
+body {
+    background-color: var(--cor--fundo);
+}
+
+.titulo {
+    font-family: var(--font-texto);
+    background-color: rgb(28, 79, 219);
+    color: white;
+    text-align: center;
+}
+
+main {
+      text-align: center;
+}
+
+h1 {
+    font-family: var(--font-texto);
+  
+    background-color: rgb(16, 167, 41);
+    border-radius: 15px;
+}
+
+button {
+    font-family: var(--font-texto);
+    text-align: center;
+    background-color: rgb(172, 169, 7);
+    border-radius: 15px;
+}
